@@ -1,5 +1,5 @@
 # han-toolbox-mod
-**Mod for HAN ToolBox. (bold)**
+**Mod for HAN ToolBox.**
 
 ![Alt-psnstuff](https://cdn1.savepice.ru/uploads/2018/4/1/618afeb1e624b7de7be174fa7fe983e6-full.jpg) 
 
