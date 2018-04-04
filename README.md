@@ -11,3 +11,7 @@ Recommend LAN connection
 
 ## Usage:
 	Just install pkg (need debug HAN)
+
+### Histoty:
+	v0.4 Mod based on 0.4
+	v0.3 Mod based on 0.3
