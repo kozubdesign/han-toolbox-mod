@@ -5,10 +5,10 @@
 	<View id="han_toolbox_xmb_main"> 
 		<Attributes> 
 			<Table key="han_main">
-				<Pair key="icon_rsc"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/ICON0.PNG</String></Pair>
+				<Pair key="icon_rsc"><String>tex_album_icon</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
 				<Pair key="title"><String>★ HAN Toolbox</String></Pair>
-				<Pair key="info"><String>Version 0.5 Mod PSPx.RU / Мод от сайта PSPX.RU</String></Pair>
+				<Pair key="info"><String>The Unofficial Xploit Companion</String></Pair>
 				<Pair key="ingame"><String>disable</String></Pair>
 			</Table>
 		</Attributes>
@@ -24,10 +24,10 @@
 	<View id="han_toolbox_xmb_main_dex"> 
 		<Attributes> 
 			<Table key="han_main">
-				<Pair key="icon_rsc"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/ICON0.PNG</String></Pair>
+				<Pair key="icon_rsc"><String>tex_album_icon</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
 				<Pair key="title"><String>★ HAN Toolbox</String></Pair>
-				<Pair key="info"><String>The Xploit 3.0 / Меню HAN Xploit</String></Pair>
+				<Pair key="info"><String>The Unofficial Xploit Companion (DEX)</String></Pair>
 				<Pair key="ingame"><String>disable</String></Pair>
 			</Table>
 		</Attributes>
@@ -46,37 +46,37 @@
 		<Attributes> 
 			<Table key="han_reboot_soft">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/reboot.png</String></Pair>
-				<Pair key="title"><String>Soft Reboot / Софтребут</String></Pair>
-				<Pair key="info"><String>Restart Console / Перезапуск операционной системы </String></Pair>
+				<Pair key="title"><String>Soft Reboot</String></Pair>
+				<Pair key="info"><String>Restart console</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/pett/syscalls/soft_reboot.html</String></Pair>
 			</Table>
 			<Table key="han_enabler_auto_main">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han_enable.png</String></Pair>
-				<Pair key="title"><String>HAN Enabler / Включить HAN</String></Pair>
-				<Pair key="info"><String>HAN Enabler Auto (CEX) / Включить HAN (CEX)</String></Pair>
+				<Pair key="title"><String>HAN Enabler</String></Pair>
+				<Pair key="info"><String>Enable custom signed packages and licenses (CEX)</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/han_enabler_auto.html</String></Pair>
 			</Table>
 			<Table key="han_functions">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han.png</String></Pair>
-				<Pair key="title"><String>HAN Functions / Опции HAN</String></Pair>
-				<Pair key="info"><String>Autorun HAN functions (Official site) / Автоматически запустить HAN с сайта</String></Pair>
+				<Pair key="title"><String>HAN Functions</String></Pair>
+				<Pair key="info"><String>Autorun HAN functions (Official site)</String></Pair>
 			</Table>
 			<Table key="han_functions_local">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han.png</String></Pair>
-				<Pair key="title"><String>HAN Functions (Local) /Локальные опции HAN</String></Pair>
-				<Pair key="info"><String>Autorun HAN functions (Locally hosted) / Автоматически запустить HAN с локального сервера</String></Pair>
+				<Pair key="title"><String>Offline HAN Functions</String></Pair>
+				<Pair key="info"><String>Autorun HAN functions (Locally hosted via PKG Linker)</String></Pair>
 			</Table>
 			<Table key="han_external_content">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/server.png</String></Pair>
-				<Pair key="title"><String>External Content / Дополнительный контент</String></Pair>
-				<Pair key="info"><String>Download and install content from remote servers / Скачать и установить с внешнего сервера</String></Pair>
+				<Pair key="title"><String>External Content</String></Pair>
+				<Pair key="info"><String>Download and install content from remote servers</String></Pair>
 			</Table>
 			<Table key="han_advanced_menu">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/setup.png</String></Pair>
-				<Pair key="title"><String>Advanced Tools / Дополнительные возможности</String></Pair>
-				<Pair key="info"><String>Be careful with items in here / Будьте осторожны с этими функциями</String></Pair>
+				<Pair key="title"><String>Advanced Tools</String></Pair>
+				<Pair key="info"><String>Be careful with items in here</String></Pair>
 			</Table>
 		</Attributes>
 			<Items>
@@ -123,8 +123,8 @@
 		<Attributes> 
 			<Table key="han_reboot_soft_dex">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/reboot.png</String></Pair>
-				<Pair key="title"><String>Soft Reboot / Софтребут</String></Pair>
-				<Pair key="info"><String>Restart Console / Перезапуск операционной системы </String></Pair>
+				<Pair key="title"><String>Soft Reboot</String></Pair>
+				<Pair key="info"><String>Restart console</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/pett/syscalls/soft_reboot_dex.html</String></Pair>
 			</Table>
@@ -253,43 +253,43 @@
 		<Attributes> 
 			<Table key="han_reboot_soft_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/reboot.png</String></Pair>
-				<Pair key="title"><String>Reinicio Suave</String></Pair>
-				<Pair key="info"><String>Reinicia la Consola</String></Pair>
+				<Pair key="title"><String>Soft Reboot</String></Pair>
+				<Pair key="info"><String>Restart console</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3xploit.com/autoxml/pett/syscalls/power/soft_reboot.html</String></Pair>
 			</Table>
 			<Table key="han_reboot_hard_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/reboot.png</String></Pair>
-				<Pair key="title"><String>Reinicio Completo</String></Pair>
-				<Pair key="info"><String>Reinicio Completo de la consola</String></Pair>
+				<Pair key="title"><String>Hard Reboot</String></Pair>
+				<Pair key="info"><String>Restart console</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3xploit.com/autoxml/pett/syscalls/power/hard_reboot.html</String></Pair>
 			</Table>
 			<Table key="han_shutdown_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/shutdown.png</String></Pair>
-				<Pair key="title"><String>Apagar</String></Pair>
-				<Pair key="info"><String>Apaga la consola</String></Pair>
+				<Pair key="title"><String>Shutdown</String></Pair>
+				<Pair key="info"><String>Turn off console</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3xploit.com/autoxml/pett/syscalls/power/power_down.html </String></Pair>
 			</Table>
 			<Table key="han_enabler_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han_enable.png</String></Pair>
 				<Pair key="title"><String>HAN Enabler</String></Pair>
-				<Pair key="info"><String>Habilitar paquetes y licencias firmados personalizados</String></Pair>
+				<Pair key="info"><String>Enable custom signed packages and licenses</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/han_enabler_auto.html</String></Pair>
 			</Table>
 			<Table key="han_installer_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/net_pkg.png</String></Pair>
 				<Pair key="title"><String>HAN Installer</String></Pair>
-				<Pair key="info"><String>Activa la carpeta install pakage manager</String></Pair>
+				<Pair key="info"><String>Enable package manager</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/han_installer_auto.html</String></Pair>
 			</Table>
 			<Table key="han_license_dumper_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/key.png</String></Pair>
-				<Pair key="title"><String>Dumpear licencia</String></Pair>
-				<Pair key="info"><String>Dumpea el activation data (act.dat+idps)</String></Pair>
+				<Pair key="title"><String>License Dumper</String></Pair>
+				<Pair key="info"><String>Dump activation data (act.dat+idps)</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/actidps_dumper_auto.html</String></Pair>
 			</Table>
@@ -691,21 +691,21 @@
 			<Table key="han_debug_settings_installer">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_debug.png</String></Pair>
 				<Pair key="title"><String>Step 2: Debug Settings Installer / Remover</String></Pair>
-				<Pair key="info"><String>Copy downloaded files from HANTOOLBX/USRDIR/files/ to dev_flash</String></Pair>
+				<Pair key="info"><String>Copy downloaded files from HANTOOLBX/USRDIR/files/ to dev_flash (Dont select usb000)</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/debug_settings_installer/debug_settings_installer.html</String></Pair>
 			</Table>
 			<Table key="han_debug_settings_swapper">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/toggle.png</String></Pair>
 				<Pair key="title"><String>Toggle Debug Settings</String></Pair>
-				<Pair key="info"><String>Copy downloaded sysconf_plugin.sprx from HANTOOLBX/USRDIR/files to dev_flash</String></Pair>
+				<Pair key="info"><String>Copy downloaded sysconf_plugin.sprx from HANTOOLBX/USRDIR/files to dev_flash (Dont select usb000)</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/debug_settings_installer/debug_settings_swapper.html</String></Pair>
 			</Table>
 			<Table key="han_debug_plugin_swapper">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/toggle.png</String></Pair>
 				<Pair key="title"><String>Toggle IP/Host info</String></Pair>
-				<Pair key="info"><String>Copy downloaded xmb_plugin.sprx from HANTOOLBX/USRDIR/files/ to dev_flash</String></Pair>
+				<Pair key="info"><String>Copy downloaded xmb_plugin.sprx from HANTOOLBX/USRDIR/files/ to dev_flash (Dont select usb000)</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/debug_settings_installer/xmb_plugin_swapper.html</String></Pair>
 			</Table>
@@ -780,69 +780,29 @@
 		<View id="han_external_content_main"> 
 		<Attributes> 
 			<Table key="pkg_linker">
-				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/pkglinker.png</String></Pair>
-				<Pair key="title"><String>Instalar Paquetes desde PC</String></Pair>
-				<Pair key="info"><String>Descarga e instala paquetes desde el PC con PKG Linker</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/server.png</String></Pair>
+				<Pair key="title"><String>Install Packages From Webserver</String></Pair>
+				<Pair key="info"><String>Download and install packages from your PC via PKG Linker (pkg)</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="demo_downloader_main">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/downloader.png</String></Pair>
-				<Pair key="title"><String>Todas Las Demos</String></Pair>
-				<Pair key="info"><String>Descarga Demos de Todas las Regiones (Requiere licencias c00)</String></Pair>
+				<Pair key="title"><String>Demo Downloader</String></Pair>
+				<Pair key="info"><String>Try PSN games before you buy with demo downloader (pkg)</String></Pair>
 			</Table>
 			<Table key="theme_downloader">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/theme.png</String></Pair>
-				<Pair key="title"><String>Temas</String></Pair>
-				<Pair key="info"><String>Descargar e instalar temas (p3t)</String></Pair>
+				<Pair key="title"><String>Theme Downloader</String></Pair>
+				<Pair key="info"><String>Download and install themes (p3t)</String></Pair>
 			</Table>
 			<Table key="wallpaper_downloader">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/wallpaper.png</String></Pair>
-				<Pair key="title"><String>Wallpapers</String></Pair>
-				<Pair key="info"><String>Vista previa y descarga de fondos (jpg)</String></Pair>
-			</Table>
-			<Table key="psnstuff_PSN_EU">
-				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/PSN_EU_images/psnstuff.png</String></Pair>
-				<Pair key="title"><String>Juegos de PSN EU</String></Pair>
-				<Pair key="info"><String>Descarga Juegos de PSN EU Completos (Requiere licencias rap/rif)</String></Pair>
-			</Table>
-			<Table key="psnstuff_PSN_US">
-				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/PSN_US_images/psnstuff.png</String></Pair>
-				<Pair key="title"><String>Juegos de PSN US</String></Pair>
-				<Pair key="info"><String>Descarga Juegos de PSN US Completos (Requiere licencias rap/rif)</String></Pair>
-			</Table>
-			<Table key="Contenido_DLC_US">
-				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/dlc_images/dlcUS.png</String></Pair>
-				<Pair key="title"><String>DLC US</String></Pair>
-				<Pair key="info"><String>Descarga contenido extra descargable de juegos US (Requiere licencias rap/rif)</String></Pair>
-			</Table>
-			<Table key="Contenido_DLC_EU">
-				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/dlc_images/dlcEU.png</String></Pair>
-				<Pair key="title"><String>DLC EU</String></Pair>
-				<Pair key="info"><String>Descarga contenido extra descargable de juegos EU (Requiere licencias rap/rif)</String></Pair>
-			</Table>
-			<Table key="psX_downloader">
-				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/ps1.png</String></Pair>
-				<Pair key="title"><String>PSX</String></Pair>
-				<Pair key="info"><String>Descarga e instala contenido de PS1</String></Pair>
-			</Table>
-			<Table key="ps2_downloader">
-				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/ps2.png</String></Pair>
-				<Pair key="title"><String>PS2</String></Pair>
-				<Pair key="info"><String>Descarga e instala contenido de PS2</String></Pair>
-			</Table>
-			<Table key="Juegos_PSP">
-				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/psp.png</String></Pair>
-				<Pair key="title"><String>PSP</String></Pair>
-				<Pair key="info"><String>Descarga e instala contenido de PSP</String></Pair>
-			</Table>
-			<Table key="GTA_Mod_Menu">
-				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/gtavlogo.png</String></Pair>
-				<Pair key="title"><String>GTA V 1.27 Mod Menus</String></Pair>
-				<Pair key="info"><String>Descarga e instala el mod menu de GTA V (Offline)</String></Pair>
+				<Pair key="title"><String>Wallpaper Downloader</String></Pair>
+				<Pair key="info"><String>Preview and download backgrounds (jpg)</String></Pair>
 			</Table>
 		</Attributes>
-		<Items>
-			<Query 
+			<Items>
+				<Query 
 				class="type:x-xmb/folder-pixmap" 
 				key="pkg_linker" 
 				attr="pkg_linker"
@@ -853,7 +813,7 @@
 				key="demo_downloader_main"
 				attr="demo_downloader_main" 
 				src="xmb://localhost/dev_hdd0/game/HANTOOLBX/USRDIR/XMLS/demo_downloader.xml#demo_downloader_items"
-				/>			
+				/>
 			<Query 
 				class="type:x-xmb/folder-pixmap" 
 				key="theme_downloader" 
@@ -866,54 +826,6 @@
 				attr="wallpaper_downloader"
 				src="xmb://localhost/dev_hdd0/game/HANTOOLBX/USRDIR/XMLS/wallpaper_downloader.xml#wallpaper_downloader_items"
 				/>
-			<Query
-				class="type:x-xmb/folder-pixmap"
-                key="psnstuff_PSN_EU"
-                attr="psnstuff_PSN_EU"
-                src="xmb://localhost/dev_hdd0/game/HANTOOLBX/USRDIR/XMLS/psnstuff_PSN_EU.xml#psnstuff_PSN_EU_items"
-				/>
-			<Query
-				class="type:x-xmb/folder-pixmap"
-                key="psnstuff_PSN_US"
-                attr="psnstuff_PSN_US"
-                src="xmb://localhost/dev_hdd0/game/HANTOOLBX/USRDIR/XMLS/psnstuff_PSN_US.xml#psnstuff_PSN_US_items"
-				/>
-			<Query
-				class="type:x-xmb/folder-pixmap"
-                key="Contenido_DLC_US"
-                attr="Contenido_DLC_US"
-                src="xmb://localhost/dev_hdd0/game/HANTOOLBX/USRDIR/XMLS/Contenido_DLC_US.xml#Contenido_DLC_US_items"
-				/>
-			<Query
-				class="type:x-xmb/folder-pixmap"
-                key="Contenido_DLC_EU"
-                attr="Contenido_DLC_EU"
-                src="xmb://localhost/dev_hdd0/game/HANTOOLBX/USRDIR/XMLS/Contenido_DLC_EU.xml#Contenido_DLC_EU_items"
-				/>
-				<Query
-				class="type:x-xmb/folder-pixmap"
-                key="psX_downloader"
-                attr="psX_downloader"
-                src="xmb://localhost/dev_hdd0/game/HANTOOLBX/USRDIR/XMLS/psX_downloader.xml#psX_downloader_items"
-				/>
-				<Query
-				class="type:x-xmb/folder-pixmap"
-                key="ps2_downloader"
-                attr="ps2_downloader"
-                src="xmb://localhost/dev_hdd0/game/HANTOOLBX/USRDIR/XMLS/ps2_downloader.xml#ps2_downloader_items"
-				/>
-				<Query
-				class="type:x-xmb/folder-pixmap"
-                key="Juegos_PSP"
-                attr="Juegos_PSP"
-                src="xmb://localhost/dev_hdd0/game/HANTOOLBX/USRDIR/XMLS/Juegos_PSP.xml#Juegos_PSP_items"
-				/>
-			<Query
-				class="type:x-xmb/folder-pixmap"
-                key="GTA_Mod_Menu"
-                attr="GTA_Mod_Menu"
-                src="xmb://localhost/dev_hdd0/game/HANTOOLBX/USRDIR/XMLS/GTA_Mod_Menu.xml#GTA_Mod_Menu_items"
-				/>	
 			</Items>
 		</View>
 		
@@ -964,9 +876,9 @@
 			</Table>
 			<Table key="han_toolbox_about">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/list.png</String></Pair>
-				<Pair key="title"><String>Version: 0.5 MOD</String></Pair>
-				<Pair key="info"><String>DeViL303, Pink1, esc0rtd3w, Berion, ShaolinAssassin 
-				Equipo PS3Xploit, Mod Editado por CYB3R</String></Pair>
+				<Pair key="title"><String>Version: 0.5</String></Pair>
+				<Pair key="info"><String>By DeViL303, Pink1, esc0rtd3w, Berion and ShaolinAssassin 
+				Massive thanks to the PS3Xploit Team for all the hacks</String></Pair>
 			</Table>
 		</Attributes>
 			<Items>
@@ -990,7 +902,7 @@
 			</Items>
 		</View>
 		
-<!-- Toolbox Updater -->
+<!-- Toolbox Update and Resource Downloader -->
 		
 		<View id="han_toolbox_update_main">
 		<Attributes>
@@ -1007,8 +919,6 @@
 			<Item class="type:x-xmb/xmlnpsignup" key="han_toolbox_update_item" attr="han_toolbox_update_item"/>
 		</Items> 
 		</View> 
-		
-<!-- Resource Downloader -->
 		
 		<View id="han_toolbox_resources_main">
 		<Attributes>
