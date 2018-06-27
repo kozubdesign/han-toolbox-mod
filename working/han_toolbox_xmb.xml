@@ -47,14 +47,14 @@
 			<Table key="han_reboot_soft">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/reboot.png</String></Pair>
 				<Pair key="title"><String>Soft Reboot / Софтребут</String></Pair>
-				<Pair key="info"><String>Restart Console / Перезапуск операционной системы </String></Pair>
+				<Pair key="info"><String>Restart OS / Перезапуск операционной системы </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/pett/syscalls/soft_reboot.html</String></Pair>
 			</Table>
 			<Table key="han_enabler_auto_main">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han_enable.png</String></Pair>
 				<Pair key="title"><String>HAN Enabler / Включить HAN</String></Pair>
-				<Pair key="info"><String>HAN Enabler Auto (CEX) / Включить HAN (CEX)</String></Pair>
+				<Pair key="info"><String>HAN Enabler Auto (CEX) / Включить HAN (для подписанных pkg)(CEX)</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/han_enabler_auto.html</String></Pair>
 			</Table>
@@ -124,36 +124,36 @@
 			<Table key="han_reboot_soft_dex">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/reboot.png</String></Pair>
 				<Pair key="title"><String>Soft Reboot / Софтребут</String></Pair>
-				<Pair key="info"><String>Restart Console / Перезапуск операционной системы </String></Pair>
+				<Pair key="info"><String>Restart OS / Перезапуск операционной системы </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/pett/syscalls/soft_reboot_dex.html</String></Pair>
 			</Table>
 			<Table key="han_enabler_auto_main_dex">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han_enable.png</String></Pair>
-				<Pair key="title"><String>HAN Enabler</String></Pair>
-				<Pair key="info"><String>Enable custom signed packages and licenses (DEX)</String></Pair>
+				<Pair key="title"><String>HAN Enabler / Включить HAN</String></Pair>
+				<Pair key="info"><String>HAN Enabler Auto (DEX) / Включить HAN (для подписанных pkg) (DEX)</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/han_enabler_auto_dex.html</String></Pair>
 			</Table>
 			<Table key="han_functions_dex">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han.png</String></Pair>
-				<Pair key="title"><String>HAN Functions</String></Pair>
-				<Pair key="info"><String>Autorun HAN Functions for DEX Firmware/Hybrid</String></Pair>
+				<Pair key="title"><String>HAN Functions / Опции HAN</String></Pair>
+				<Pair key="info"><String>Autorun HAN functions (Official site) (DEX)/ Автоматически запустить HAN с сайта (DEX)</String></Pair>
 			</Table>
 			<Table key="han_functions_local">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han.png</String></Pair>
-				<Pair key="title"><String>Offline HAN Functions</String></Pair>
-				<Pair key="info"><String>Autorun HAN functions (Locally hosted via PKG Linker)</String></Pair>
+				<Pair key="title"><String>HAN Functions (Local) /Локальные опции HAN</String></Pair>
+				<Pair key="info"><String>Autorun HAN functions (Locally hosted) / Автоматически запустить HAN с локального сервера</String></Pair>
 			</Table>
 			<Table key="han_external_content">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/server.png</String></Pair>
-				<Pair key="title"><String>External Content</String></Pair>
-				<Pair key="info"><String>Download and install content from remote servers</String></Pair>
+				<Pair key="title"><String>External Content / Дополнительный контент</String></Pair>
+				<Pair key="info"><String>Download and install content from remote servers / Скачать и установить с внешнего сервера</String></Pair>
 			</Table>
 			<Table key="han_advanced_menu">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/setup.png</String></Pair>
-				<Pair key="title"><String>Advanced Tools</String></Pair>
-				<Pair key="info"><String>Be careful with items in here</String></Pair>
+				<Pair key="title"><String>Advanced Tools / Дополнительные возможности</String></Pair>
+				<Pair key="info"><String>Be careful with items in here / Будьте осторожны с этими функциями</String></Pair>
 			</Table>
 		</Attributes>
 			<Items>
@@ -200,23 +200,23 @@
 		<Attributes> 
 			<Table key="han_file_browser">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/file_explorer.png</String></Pair>
-				<Pair key="title"><String>File Explorer</String></Pair>
-				<Pair key="info"><String>Browse complete file system and delete files (Be careful)</String></Pair>
+				<Pair key="title"><String>File Explorer / Обозреватель файлов</String></Pair>
+				<Pair key="info"><String>Browse complete file system and delete files (Be careful) / Посумотреть файловую систему и удалить файлы (будьте аккуратны)</String></Pair>
 			</Table>
 			<Table key="han_file_injector">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_file.png</String></Pair>
-				<Pair key="title"><String>File Injector</String></Pair>
-				<Pair key="info"><String>Use for adding XMB mods to flash or other file operations (Be careful)</String></Pair>
+				<Pair key="title"><String>File Injector / Установка файлов</String></Pair>
+				<Pair key="info"><String>Use for adding XMB mods to flash or other file operations (Be careful) /Установка XMB модов и других операционных файлов (будьте аккуратны)</String></Pair>
 			</Table>
 			<Table key="han_dex_settings_injector">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_debug.png</String></Pair>
-				<Pair key="title"><String>DEX XMB Setup</String></Pair>
-				<Pair key="info"><String>Add/Remove DEX settings etc (Be careful)</String></Pair>
+				<Pair key="title"><String>DEX XMB Setup / Установка DEX XMB</String></Pair>
+				<Pair key="info"><String>Add/Remove DEX settings etc (Be careful) / Добавить/удалить DEX параметры (будьте аккуратны)</String></Pair>
 			</Table>
 			<Table key="han_toolbox_setup">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/setup.png</String></Pair>
-				<Pair key="title"><String>Toolbox Settings</String></Pair>
-				<Pair key="info"><String>Version info, Resource download, Updates</String></Pair>
+				<Pair key="title"><String>Toolbox Settings /Опции Toolbox</String></Pair>
+				<Pair key="info"><String>Version info, Resource download, Updates / Информация о версии, обновление, скачивание ресурсов </String></Pair>
 			</Table>
 		</Attributes>
 			<Items>
@@ -253,57 +253,57 @@
 		<Attributes> 
 			<Table key="han_reboot_soft_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/reboot.png</String></Pair>
-				<Pair key="title"><String>Reinicio Suave</String></Pair>
-				<Pair key="info"><String>Reinicia la Consola</String></Pair>
+				<Pair key="title"><String>Soft Reboot / Софтребут</String></Pair>
+				<Pair key="info"><String>Restart OS / Перезапуск операционной системы </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3xploit.com/autoxml/pett/syscalls/power/soft_reboot.html</String></Pair>
 			</Table>
 			<Table key="han_reboot_hard_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/reboot.png</String></Pair>
-				<Pair key="title"><String>Reinicio Completo</String></Pair>
-				<Pair key="info"><String>Reinicio Completo de la consola</String></Pair>
+				<Pair key="title"><String>Hard Reboot / Хардребут</String></Pair>
+				<Pair key="info"><String>Restart Console / Полный перезапуск операционной системы </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3xploit.com/autoxml/pett/syscalls/power/hard_reboot.html</String></Pair>
 			</Table>
 			<Table key="han_shutdown_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/shutdown.png</String></Pair>
-				<Pair key="title"><String>Apagar</String></Pair>
-				<Pair key="info"><String>Apaga la consola</String></Pair>
+				<Pair key="title"><String>Shutdown / Выключение PS3</String></Pair>
+				<Pair key="info"><String>Turn off console / Выключить консоль</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3xploit.com/autoxml/pett/syscalls/power/power_down.html </String></Pair>
 			</Table>
 			<Table key="han_enabler_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han_enable.png</String></Pair>
-				<Pair key="title"><String>HAN Enabler</String></Pair>
-				<Pair key="info"><String>Habilitar paquetes y licencias firmados personalizados</String></Pair>
+				<Pair key="title"><String>HAN Enabler / Включить HAN</String></Pair>
+				<Pair key="info"><String>HAN Enabler Auto / Включить HAN (для подписанных pkg) </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/han_enabler_auto.html</String></Pair>
 			</Table>
 			<Table key="han_installer_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/net_pkg.png</String></Pair>
-				<Pair key="title"><String>HAN Installer</String></Pair>
-				<Pair key="info"><String>Activa la carpeta install pakage manager</String></Pair>
+				<Pair key="title"><String>HAN Installer / Установка HAN</String></Pair>
+				<Pair key="info"><String>Enable package manager / Установка HAN в OS (нужно один раз - вставьте флешку с файлами)</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/han_installer_auto.html</String></Pair>
 			</Table>
 			<Table key="han_license_dumper_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/key.png</String></Pair>
-				<Pair key="title"><String>Dumpear licencia</String></Pair>
-				<Pair key="info"><String>Dumpea el activation data (act.dat+idps)</String></Pair>
+				<Pair key="title"><String>License Dumper / Получение файлов лицензии</String></Pair>
+				<Pair key="info"><String>Dump activation data (act.dat+idps) / Копируем файлы (act.dat+idps.hex) на флешку</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/actidps_dumper_auto.html</String></Pair>
 			</Table>
 			<Table key="han_injector_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_license.png</String></Pair>
-				<Pair key="title"><String>Act.dat Injector</String></Pair>
-				<Pair key="info"><String>Auto running injector Xploit useful for act.dat</String></Pair>
+				<Pair key="title"><String>Act.dat Injector / Устанавливаем RIF файлы и act.dat</String></Pair>
+				<Pair key="info"><String>Auto running injector Xploit useful for act.dat / Устанавливаем RIF файлы и act.dat с флешки (без pkg) </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/actrif_copier_auto.html</String></Pair>
 			</Table>
 			<Table key="han_debug_auto">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/net_pkg.png</String></Pair>
-				<Pair key="title"><String>Debug Package Enabler</String></Pair>
-				<Pair key="info"><String>For modifed retail PS3 packages only</String></Pair>
+				<Pair key="title"><String>Debug Package Enabler / Включить дебаг HAN</String></Pair>
+				<Pair key="info"><String>For modifed retail PS3 packages only / Для не подписанных pkg</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/dbgpkg_enabler_auto.html</String></Pair>
 			</Table>
