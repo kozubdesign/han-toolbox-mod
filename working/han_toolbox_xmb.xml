@@ -26,8 +26,8 @@
 			<Table key="han_main">
 				<Pair key="icon_rsc"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/ICON0.PNG</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
-				<Pair key="title"><String>★ HAN Toolbox DEX</String></Pair>
-				<Pair key="info"><String>The Xploit 3.0 (DEX) / Опции HAN</String></Pair>
+				<Pair key="title"><String>★ HAN Toolbox</String></Pair>
+				<Pair key="info"><String>The Xploit 3.0 / Меню HAN Xploit</String></Pair>
 				<Pair key="ingame"><String>disable</String></Pair>
 			</Table>
 		</Attributes>
@@ -46,27 +46,27 @@
 		<Attributes> 
 			<Table key="han_reboot_soft">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/reboot.png</String></Pair>
-				<Pair key="title"><String>Soft Reboot</String></Pair>
-				<Pair key="info"><String>Soft Reboot / Мягкая перегрузка</String></Pair>
+				<Pair key="title"><String>Soft Reboot / "Мягкий" Перезапуск</String></Pair>
+				<Pair key="info"><String>Soft Reboot / "Мягкий" Перезапуск </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/pett/syscalls/soft_reboot.html</String></Pair>
 			</Table>
 			<Table key="han_enabler_auto_main">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han_enable.png</String></Pair>
-				<Pair key="title"><String>HAN Enabler</String></Pair>
-				<Pair key="info"><String>HAN Enabler Auto (CEX)</String></Pair>
+				<Pair key="title"><String>HAN Enabler / Включить HAN</String></Pair>
+				<Pair key="info"><String>HAN Enabler Auto (CEX)/ Включить HAN (CEX)</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/han_enabler_auto.html</String></Pair>
 			</Table>
 			<Table key="han_functions">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han.png</String></Pair>
-				<Pair key="title"><String>Funciones HAN</String></Pair>
-				<Pair key="info"><String>Funciones autorun HAN (sitio oficial)</String></Pair>
+				<Pair key="title"><String>HAN Functions / Опции HAN</String></Pair>
+				<Pair key="info"><String>Autorun HAN functions (Official site) / Автоматически запустить HAN с сайта</String></Pair>
 			</Table>
 			<Table key="han_functions_local">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han.png</String></Pair>
-				<Pair key="title"><String>Funciones HAN Offline</String></Pair>
-				<Pair key="info"><String>Funciones autoun HAN (alojadas localmente a través de PKG Linker)</String></Pair>
+				<Pair key="title"><String>HAN Functions (Local) /Локальные опции HAN</String></Pair>
+				<Pair key="info"><String>Autorun HAN functions (Locally hosted) /Автоматически запустить HAN с локального сервера</String></Pair>
 			</Table>
 			<Table key="han_external_content">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/server.png</String></Pair>
