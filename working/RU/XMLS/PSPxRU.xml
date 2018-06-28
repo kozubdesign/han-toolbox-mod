@@ -1,0 +1,65 @@
+<XMBML version="1.0">
+    <View id="Disk_PSPx_RU_items">
+        <Attributes>
+            <Table key="Disk_PSPx_RU_items_0">
+                <Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/PSPxRU/colex.png</String></Pair>
+                <Pair key="title"><String>Тест</String></Pair>
+                <Pair key="info"><String>BCES-00065 Патч - 12,7 MB</String></Pair>
+                <Pair key="ingame"><String>disable</String></Pair>
+            </Table>
+            <Table key="Disk_PSPx_RU_items_1">
+                <Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/PSPxRU/colex.png</String></Pair>
+                <Pair key="title"><String>Тест</String></Pair>
+                <Pair key="info"><String>BCES-00065 Игра - 20,6 GB</String></Pair>
+                <Pair key="ingame"><String>disable</String></Pair>
+            </Table>
+        </Attributes>
+        <Items>          
+            <Query
+                class="type:x-xmb/folder-pixmap"
+                key="Disk_PSPx_RU_items_0"
+                attr="Disk_PSPx_RU_items_0"
+                src="#Disk_PSPx_RU_items_0_link"
+            /> 
+			<Query
+                class="type:x-xmb/folder-pixmap"
+                key="Disk_PSPx_RU_items_1"
+                attr="Disk_PSPx_RU_items_1"
+                src="#Disk_PSPx_RU_items_1_link"
+            />                      
+        </Items>
+    </View>
+
+    <View id="Disk_PSPx_RU_items_0_link">
+        <Attributes>
+            <Table key="Disk_PSPx_RU_items_0">
+                <Pair key="info"><String>net_package_install</String></Pair>
+                <Pair key="pkg_src"><String>http://zeus.dl.playstation.net/cdn/EP4042/NPEB00885_00/qpvEmRaDsbmYQqbsMdBKVgNsurCBUwHIpmpzkrvDbWPerBRVxvVqLEykkwrjTMXx.pkg</String></Pair>
+                <Pair key="pkg_src_qa"><String>http://zeus.dl.playstation.net/cdn/EP4042/NPEB00885_00/qpvEmRaDsbmYQqbsMdBKVgNsurCBUwHIpmpzkrvDbWPerBRVxvVqLEykkwrjTMXx.pkg</String></Pair>
+                <Pair key="content_name"><String>tool_pkg_install_pc</String></Pair>
+                <Pair key="content_id"><String>JP9000-NPJG00071_00-0000111122223333</String></Pair>
+                <Pair key="prod_pict_path"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/download.png</String></Pair>
+            </Table>
+        </Attributes>
+        <Items>
+            <Item class="type:x-xmb/xmlnpsignup" key="Disk_PSPx_RU_items_0" attr="Disk_PSPx_RU_items_0"/>
+        </Items>
+    </View>
+
+    <View id="Disk_PSPx_RU_items_1_link">
+        <Attributes>
+            <Table key="Disk_PSPx_RU_items_1">
+                <Pair key="info"><String>net_package_install</String></Pair>
+                <Pair key="pkg_src"><String>http://zeus.dl.playstation.net/cdn/EP4042/NPEB00885_00/qpvEmRaDsbmYQqbsMdBKVgNsurCBUwHIpmpzkrvDbWPerBRVxvVqLEykkwrjTMXx.pkg</String></Pair>
+                <Pair key="pkg_src_qa"><String>http://zeus.dl.playstation.net/cdn/EP4042/NPEB00885_00/qpvEmRaDsbmYQqbsMdBKVgNsurCBUwHIpmpzkrvDbWPerBRVxvVqLEykkwrjTMXx.pkg</String></Pair>
+                <Pair key="content_name"><String>tool_pkg_install_pc</String></Pair>
+                <Pair key="content_id"><String>UP4069-NPUH10088_00-101IN1MEGAMIXPSP</String></Pair>
+                <Pair key="prod_pict_path"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/download.png</String></Pair>
+            </Table>
+        </Attributes>
+        <Items>
+            <Item class="type:x-xmb/xmlnpsignup" key="Disk_PSPx_RU_items_1" attr="Disk_PSPx_RU_items_1"/>
+        </Items>
+    </View>
+
+</XMBML>
