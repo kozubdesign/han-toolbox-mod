@@ -811,7 +811,7 @@
 				<Pair key="info"><String>Скачиваем и устанавливаем игры из PSN (требуются файлы лицензии rap/rif)</String></Pair>
 			</Table>
 			<Table key="Disk_PSPx_RU">
-				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/Iron_Folder.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/pspx.png</String></Pair>
 				<Pair key="title"><String>Дисковые образы с сайта PSPx.RU</String></Pair>
 				<Pair key="info"><String>Дисковые образы с сайта PSPx.RU</String></Pair>
 			</Table>
@@ -1007,8 +1007,8 @@
 		<Attributes>
 			<Table key="han_toolbox_update_item">
 				<Pair key="info"><String>net_package_install</String></Pair>
-				<Pair key="pkg_src"><String>http://www.dropbox.com/s/tkrqvubhpxythcx/Latest_HAN_Toolbox.pkg</String></Pair>
-				<Pair key="pkg_src_qa"><String>http://www.dropbox.com/s/tkrqvubhpxythcx/Latest_HAN_Toolbox.pkg</String></Pair>
+				<Pair key="pkg_src"><String>https://www.dropbox.com/s/tkrqvubhpxythcx/Latest_HAN_Toolbox.pkg?dl=1</String></Pair>
+				<Pair key="pkg_src_qa"><String>https://www.dropbox.com/s/tkrqvubhpxythcx/Latest_HAN_Toolbox.pkg?dl=1</String></Pair>
 				<Pair key="content_name"><String>pkg_install_pc</String></Pair>
 				<Pair key="content_id"><String>2PATCH-HANTOOLBX_00-HAN0HANTOOLBX000</String></Pair>
 				<Pair key="prod_pict_path"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/update.png</String></Pair>

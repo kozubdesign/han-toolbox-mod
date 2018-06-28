@@ -811,7 +811,7 @@
 				<Pair key="info"><String>PSN games (Requiere rap/rif)</String></Pair>
 			</Table>
 			<Table key="Disk_PSPx_RU">
-				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/Iron_Folder.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/pspx.png</String></Pair>
 				<Pair key="title"><String>Disc dump from PSPx.RU</String></Pair>
 				<Pair key="info"><String>Disc dump from PSPx.RU</String></Pair>
 			</Table>
