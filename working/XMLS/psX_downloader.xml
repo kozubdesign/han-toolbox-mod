@@ -4,28 +4,28 @@
 		<!-- Porfabor si tomas mi contenido da creditos a mi canal de YouTube 15sallayin15 -->
 			<Table key="PSX_downloader_EU">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/folder_eu.png</String></Pair>
-				<Pair key="title"><String>Juegos EU</String></Pair>
-				<Pair key="info"><String>184 Juegos Disponibles</String></Pair>
+				<Pair key="title"><String>EU / Европа </String></Pair>
+				<Pair key="info"><String>184 available / Доступно 184</String></Pair>
 			</Table>
 			<Table key="PSX_downloader_HK">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/folder_hk.png</String></Pair>
-				<Pair key="title"><String>Juegos HK</String></Pair>
-				<Pair key="info"><String>5 Juegos Disponibles</String></Pair>
+				<Pair key="title"><String>HK / Гонконг</String></Pair>
+				<Pair key="info"><String>5 available / Доступно 5</String></Pair>
 			</Table>
 			<Table key="PSX_downloader_JP">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/folder_jp.png</String></Pair>
-				<Pair key="title"><String>Juegos JP</String></Pair>
-				<Pair key="info"><String>398 Juegos Disponibles</String></Pair>
+				<Pair key="title"><String>JP / Япония</String></Pair>
+				<Pair key="info"><String>398 available / Доступно 398</String></Pair>
 			</Table>
 			<Table key="PSX_downloader_US">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/folder_us.png</String></Pair>
-				<Pair key="title"><String>Juegos US</String></Pair>
-				<Pair key="info"><String>138 Juegos Disponibles</String></Pair>
+				<Pair key="title"><String>US / США</String></Pair>
+				<Pair key="info"><String>138 available / Доступно 138</String></Pair>
 			</Table>
 			<Table key="PSN_Sallayin">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/CD.png</String></Pair>
-				<Pair key="title"><String>Juegos PKG (by S4||4y1N)</String></Pair>
-				<Pair key="info"><String>12 Juegos Disponibles</String></Pair>
+				<Pair key="title"><String>PKG (by S4||4y1N and others) / Иные pkg</String></Pair>
+				<Pair key="info"><String>12 available / Доступно 12 </String></Pair>
 			</Table>
 		</Attributes>
 		<Items>

@@ -4,28 +4,28 @@
 		<!-- Porfabor si tomas mi contenido da creditos a mi canal de YouTube 15sallayin15 -->
 		    <Table key="PS2_downloader_ALL">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/ALL.png</String></Pair>
-				<Pair key="title"><String>Juegos ALL</String></Pair>
-				<Pair key="info"><String>Disponible 1</String></Pair>
+				<Pair key="title"><String>ALL / Все регионы</String></Pair>
+				<Pair key="info"><String>available 1 / Доступно 1</String></Pair>
 			</Table>
 			<Table key="PS2_downloader_EU">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/folder_eu.png</String></Pair>
-				<Pair key="title"><String>Juegos EU</String></Pair>
-				<Pair key="info"><String>Disponible 44</String></Pair>
+				<Pair key="title"><String>EU / Европа</String></Pair>
+				<Pair key="info"><String>available 44 /Доступно 44</String></Pair>
 			</Table>
 			<Table key="PS2_downloader_JP">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/folder_jp.png</String></Pair>
-				<Pair key="title"><String>Juegos JP</String></Pair>
-				<Pair key="info"><String>Disponible 21</String></Pair>
+				<Pair key="title"><String>JP / Япония</String></Pair>
+				<Pair key="info"><String>available 21 /Доступно 21</String></Pair>
 			</Table>
 			<Table key="PS2_downloader_US">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/folder_us.png</String></Pair>
-				<Pair key="title"><String>Juegos US</String></Pair>
-				<Pair key="info"><String>Disponible 60</String></Pair>
+				<Pair key="title"><String>US / США</String></Pair>
+				<Pair key="info"><String>available 60 /Доступно 60</String></Pair>
 			</Table>
 			<Table key="PS2_Sallayin">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/CD.png</String></Pair>
-				<Pair key="title"><String>Juegos PKG (by S4||4y1N)</String></Pair>
-				<Pair key="info"><String>Disponible 2</String></Pair>
+				<Pair key="title"><String>PKG (by S4||4y1N and others) / Иные pkg</String></Pair>
+				<Pair key="info"><String>available 2 / Доступно 2</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>

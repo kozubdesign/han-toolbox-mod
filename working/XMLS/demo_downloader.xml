@@ -5,22 +5,22 @@
 			<Table key="demo_downloader_C00_EU">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/folder_eu.png</String></Pair>
 				<Pair key="title"><String>EU Demos</String></Pair>
-				<Pair key="info"><String>246 Available</String></Pair>
+				<Pair key="info"><String>246 Available / Всего 246 игр</String></Pair>
 			</Table>
 			<Table key="demo_downloader_C00_HK">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/folder_hk.png</String></Pair>
 				<Pair key="title"><String>HK Demos</String></Pair>
-				<Pair key="info"><String>50 Available</String></Pair>
+				<Pair key="info"><String>50 Available / Всего 50 игр</String></Pair>
 			</Table>
 			<Table key="demo_downloader_C00_JP">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/folder_jp.png</String></Pair>
 				<Pair key="title"><String>JP Demos</String></Pair>
-				<Pair key="info"><String>68 Available</String></Pair>
+				<Pair key="info"><String>68 Available / Всего 68 игр</String></Pair>
 			</Table>
 			<Table key="demo_downloader_C00_US">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/folder_us.png</String></Pair>
 				<Pair key="title"><String>US Demos</String></Pair>
-				<Pair key="info"><String>269 Available</String></Pair>
+				<Pair key="info"><String>269 Available / Всего 269 игр</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>

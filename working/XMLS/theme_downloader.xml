@@ -12,28 +12,28 @@
 			</Table>
 			<Table key="seg_theme_downloader_ac">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/theme.png</String></Pair>
-				<Pair key="title"><String>Themes (A-C)</String></Pair>
-				<Pair key="info"><String>Download and Install Themes</String></Pair>
+				<Pair key="title"><String>Themes (A-C) / Темы (A-C)</String></Pair>
+				<Pair key="info"><String>Download and Install Themes / Скачать и установить темы </String></Pair>
 			</Table>
 			<Table key="seg_theme_downloader_dh">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/theme.png</String></Pair>
-				<Pair key="title"><String>Themes (D-H)</String></Pair>
-				<Pair key="info"><String>Download and Install Themes</String></Pair>
+				<Pair key="title"><String>Themes (D-H) / Темы (D-H)</String></Pair>
+				<Pair key="info"><String>Download and Install Themes / Скачать и установить темы </String></Pair>
 			</Table>
 			<Table key="seg_theme_downloader_in">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/theme.png</String></Pair>
-				<Pair key="title"><String>Themes (I-N)</String></Pair>
-				<Pair key="info"><String>Download and Install Themes</String></Pair>
+				<Pair key="title"><String>Themes (I-N) / Темы (I-N)</String></Pair>
+				<Pair key="info"><String>Download and Install Themes / Скачать и установить темы </String></Pair>
 			</Table>
 			<Table key="seg_theme_downloader_os">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/theme.png</String></Pair>
-				<Pair key="title"><String>Themes (O-S)</String></Pair>
-				<Pair key="info"><String>Download and Install Themes</String></Pair>
+				<Pair key="title"><String>Themes (O-S) / Темы (O-S)</String></Pair>
+				<Pair key="info"><String>Download and Install Themes / Скачать и установить темы </String></Pair>
 			</Table>
 			<Table key="seg_theme_downloader_tz">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/theme.png</String></Pair>
-				<Pair key="title"><String>Themes (T-Z)</String></Pair>
-				<Pair key="info"><String>Download and Install Themes</String></Pair>
+				<Pair key="title"><String>Themes (T-Z) / Темы (T-Z)</String></Pair>
+				<Pair key="info"><String>Download and Install Themes / Скачать и установить темы </String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
