@@ -358,43 +358,43 @@
 		<Attributes> 
 			<Table key="han_reboot_soft_auto_dex">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/reboot.png</String></Pair>
-				<Pair key="title"><String>Soft Reboot</String></Pair>
-				<Pair key="info"><String>Restart Console</String></Pair>
+				<Pair key="title"><String>Soft Reboot / Софтребут</String></Pair>
+				<Pair key="info"><String>Restart OS / Перезапуск операционной системы </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/pett/syscalls/soft_reboot_dex.html</String></Pair>
 			</Table>
 			<Table key="han_reboot_hard_auto_dex">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/reboot.png</String></Pair>
-				<Pair key="title"><String>Hard Reboot</String></Pair>
-				<Pair key="info"><String>Restart Console</String></Pair>
+				<Pair key="title"><String>Hard Reboot / Хардребут</String></Pair>
+				<Pair key="info"><String>Restart Console / Полный перезапуск операционной системы </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/pett/syscalls/hard_reboot_dex.html</String></Pair>
 			</Table>
 			<Table key="han_shutdown_auto_dex">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/shutdown.png</String></Pair>
-				<Pair key="title"><String>Shutdown</String></Pair>
-				<Pair key="info"><String>Turn Off Console</String></Pair>
+				<Pair key="title"><String>Shutdown / Выключение PS3</String></Pair>
+				<Pair key="info"><String>Turn off console / Выключить консоль</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/pett/syscalls/power_down_dex.html</String></Pair>
 			</Table>
 			<Table key="han_enabler_auto_dex">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/han_enable.png</String></Pair>
-				<Pair key="title"><String>HAN Enabler</String></Pair>
-				<Pair key="info"><String>Enable Custom Signed Packages and Licenses</String></Pair>
+				<Pair key="title"><String>HAN Enabler / Включить HAN</String></Pair>
+				<Pair key="info"><String>HAN Enabler Auto / Включить HAN (для подписанных pkg) </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/han_enabler_auto_dex.html</String></Pair>
 			</Table>
 			<Table key="han_license_dumper_auto_dex">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/key.png</String></Pair>
-				<Pair key="title"><String>License Dumper</String></Pair>
-				<Pair key="info"><String>Dump Activation Data (act.dat/idps)</String></Pair>
+				<Pair key="title"><String>License Dumper / Получение файлов лицензии</String></Pair>
+				<Pair key="info"><String>Dump activation data (act.dat+idps) / Копируем файлы (act.dat+idps.hex) на флешку</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/actidps_dumper_auto_dex.html</String></Pair>
 			</Table>
 			<Table key="han_injector_auto_dex">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_license.png</String></Pair>
-				<Pair key="title"><String>License Injector</String></Pair>
-				<Pair key="info"><String>Inject Custom Signed Activation Data (act.dat)</String></Pair>
+				<Pair key="title"><String>Act.dat Injector / Устанавливаем RIF файлы и act.dat</String></Pair>
+				<Pair key="info"><String>Auto running injector Xploit useful for act.dat / Устанавливаем RIF файлы и act.dat с флешки (без pkg) </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/autoxml/han/actrif_copier_auto_dex.html</String></Pair>
 			</Table>
@@ -439,76 +439,76 @@
 		<Attributes> 
 			<Table key="han_inject_coldboot_raf">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_coldboot.png</String></Pair>
-				<Pair key="title"><String>Inject Coldboots (Boot Logo and Sound)</String></Pair>
-				<Pair key="info"><String>Copy coldboot_*.* to dev_flash/vsh/resource/coldboot_*.*</String></Pair>
+				<Pair key="title"><String>Inject Coldboots (Boot Logo and Sound) / Устанавливаем загрузочный логотип и звук</String></Pair>
+				<Pair key="info"><String>Copy coldboot_*.* to dev_flash/vsh/resource/coldboot_*.* / Копируем coldboot_*.* во флеш: dev_flash/vsh/resource/coldboot_*.*</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/coldboot/coldboot-installer.html</String></Pair>
 			</Table>
 			<Table key="han_inject_rco">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_rco.png</String></Pair>
-				<Pair key="title"><String>Inject RCO (System Resource)</String></Pair>
-				<Pair key="info"><String>Copy *.rco to dev_flash/vsh/resource/*.rco</String></Pair>
+				<Pair key="title"><String>Inject RCO (System Resource) / Устанавливаем системные ресурсы</String></Pair>
+				<Pair key="info"><String>Copy *.rco to dev_flash/vsh/resource/*.rco / Копируем *.rco во флеш: dev_flash/vsh/resource/*.rco </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/flash_rco_replacer/flash_rco_replacer.html</String></Pair>
 			</Table>
 			<Table key="han_inject_xml">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_xml.png</String></Pair>
-				<Pair key="title"><String>Inject XML (XMB Layout)</String></Pair>
-				<Pair key="info"><String>Copy *.xml to dev_flash/vsh/resource/explore/xmb/*.xml</String></Pair>
+				<Pair key="title"><String>Inject XML (XMB Layout) / Устанавливаем XML (меню) </String></Pair>
+				<Pair key="info"><String>Copy *.xml to dev_flash/vsh/resource/explore/xmb/*.xml / Копируем *.xml во флеш: dev_flash/vsh/resource/explore/xmb/*.xml </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/flash_xml_replacer/flash_xml_replacer.html</String></Pair>
 			</Table>
 			<Table key="han_inject_self">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_executable.png</String></Pair>
-				<Pair key="title"><String>Inject SELF (Modules)</String></Pair>
-				<Pair key="info"><String>Copy *.self to dev_flash/vsh/*/*.self</String></Pair>
+				<Pair key="title"><String>Inject SELF (Modules) / Устанавливаем SELF</String></Pair>
+				<Pair key="info"><String>Copy *.self to dev_flash/vsh/*/*.self / Копируем *.self во флеш: dev_flash/vsh/*/*.self </String></Pair>
 			</Table>
 			<Table key="han_inject_sprx">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_executable.png</String></Pair>
-				<Pair key="title"><String>Inject SPRX (VSH Modules)</String></Pair>
-				<Pair key="info"><String>Copy *.sprx to dev_flash/vsh/module/*.sprx</String></Pair>
+				<Pair key="title"><String>Inject SPRX (VSH Modules) / Устанавливаем  SPRX (VSH Модули)</String></Pair>
+				<Pair key="info"><String>Copy *.sprx to dev_flash/vsh/module/*.sprx / Копируем *.sprx в dev_flash/vsh/module/*.sprx </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/flash_sprx_replacer/flash_sprx_replacer_module.html</String></Pair>
 			</Table>
 			<Table key="han_inject_sprx_int">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_executable.png</String></Pair>
-				<Pair key="title"><String>Inject SPRX (Internal Library)</String></Pair>
-				<Pair key="info"><String>Copy *.sprx to dev_flash/sys/internal/*.sprx</String></Pair>
+				<Pair key="title"><String>Inject SPRX (Internal Library) / Устанавливаем SPRX (Внутренние библиотеки)</String></Pair>
+				<Pair key="info"><String>Copy *.sprx to dev_flash/sys/internal/*.sprx / Копируем *.sprx в dev_flash/sys/internal/*.sprx</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/flash_sprx_replacer/flash_sprx_replacer_sys_internal.html</String></Pair>
 			</Table>
 			<Table key="han_inject_sprx_ext">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_executable.png</String></Pair>
-				<Pair key="title"><String>Inject SPRX (External Library)</String></Pair>
-				<Pair key="info"><String>Copy *.sprx to dev_flash/sys/external/*.sprx</String></Pair>
+				<Pair key="title"><String>Inject SPRX (External Library) / Устанавливаем SPRX (Внешние библиотеки)</String></Pair>
+				<Pair key="info"><String>Copy *.sprx to dev_flash/sys/external/*.sprx / Копируем *.sprx в dev_flash/sys/external/*.sprx</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/flash_sprx_replacer/flash_sprx_replacer_sys_external.html</String></Pair>
 			</Table>
 			<Table key="han_inject_lines">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_wave.png</String></Pair>
-				<Pair key="title"><String>Inject Lines.qrc (Wave)</String></Pair>
-				<Pair key="info"><String>Copy lines.qrc to dev_flash/vsh/resource/qgl/lines.qrc</String></Pair>
+				<Pair key="title"><String>Inject Lines.qrc (Wave) / Устанавливаем волны </String></Pair>
+				<Pair key="info"><String>Copy lines.qrc to dev_flash/vsh/resource/qgl/lines.qrc / Копируем lines.qrc в dev_flash/vsh/resource/qgl/lines.qrc</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/wave/xmb_wave_installer.html</String></Pair>
 			</Table>
 			<Table key="han_inject_imagefont">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_emoji.png</String></Pair>
-				<Pair key="title"><String>Inject Imagefont.bin (Emojis and Icons)</String></Pair>
-				<Pair key="info"><String>Copy imagefont.bin to dev_flash/vsh/resource/imagefont.bin</String></Pair>
+				<Pair key="title"><String>Inject Imagefont.bin (Emojis and Icons) / Устанавливаем эмоции и иконки</String></Pair>
+				<Pair key="info"><String>Copy imagefont.bin to dev_flash/vsh/resource/imagefont.bin / Копируем imagefont.bin в dev_flash/vsh/resource/imagefont.bin</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/imagefont/imagefont_replacer.html</String></Pair>
 			</Table>
 			<Table key="han_inject_font">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_font.png</String></Pair>
-				<Pair key="title"><String>Inject TTF (Font)</String></Pair>
-				<Pair key="info"><String>Copy *.ttf to dev_flash/data/font/*.ttf</String></Pair>
+				<Pair key="title"><String>Inject TTF (Font) / Устанавливаем шрифты </String></Pair>
+				<Pair key="info"><String>Copy *.ttf to dev_flash/data/font/*.ttf / Копируем *.ttf в dev_flash/data/font/*.ttf</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/flash_font_replacer/flash_font_replacer.html</String></Pair>
 			</Table>
 			<Table key="han_inject_remove_cert">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_cert.png</String></Pair>
-				<Pair key="title"><String>Inject / Remove Cert (SSL Cert)</String></Pair>
-				<Pair key="info"><String>Copy / Delete certs at dev_flash/data/cert/*.cer</String></Pair>
+				<Pair key="title"><String>Inject / Remove Cert (SSL Cert) / Устанавливаем сертификаты </String></Pair>
+				<Pair key="info"><String>Copy / Delete certs at dev_flash/data/cert/*.cer / Копируем или удаляем certs в dev_flash/data/cert/*.cer </String></Pair>
 			</Table>
 		</Attributes>
 			<Items>
@@ -578,36 +578,36 @@
 		<Attributes> 
 			<Table key="han_inject_self_main">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_executable.png</String></Pair>
-				<Pair key="title"><String>Inject SELF (Main)</String></Pair>
-				<Pair key="info"><String>Copy *.self to dev_flash/vsh/module/*.self</String></Pair>
+				<Pair key="title"><String>Inject SELF (Main) / Устанавливаем SELF (Основное) </String></Pair>
+				<Pair key="info"><String>Copy *.self to dev_flash/vsh/module/*.self / Копируем *.self в dev_flash/vsh/module/*.self</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3xploit.com/flash_self_replacer/flash_self_replacer_vsh_module.html</String></Pair>
 			</Table>
 			<Table key="han_inject_self_ps1">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_game.png</String></Pair>
-				<Pair key="title"><String>Inject SELF (PS1 Emulator)</String></Pair>
-				<Pair key="info"><String>Copy *.self to dev_flash/ps1emu/*.self</String></Pair>
+				<Pair key="title"><String>Inject SELF (PS1 Emulator) / Устанавливаем SELF (PS1 эмулятор)</String></Pair>
+				<Pair key="info"><String>Copy *.self to dev_flash/ps1emu/*.self / Копируем *.self в dev_flash/ps1emu/*.self</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3xploit.com/flash_self_replacer/flash_self_replacer_ps1emu.html</String></Pair>
 			</Table>
 			<Table key="han_inject_self_ps2">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_game.png</String></Pair>
-				<Pair key="title"><String>Inject SELF (PS2 Emulator)</String></Pair>
-				<Pair key="info"><String>Copy *.self to dev_flash/ps2emu/*.self</String></Pair>
+				<Pair key="title"><String>Inject SELF (PS2 Emulator) / Устанавливаем SELF (PS2 эмулятор)</String></Pair>
+				<Pair key="info"><String>Copy *.self to dev_flash/ps2emu/*.self / Копируем *.self в dev_flash/ps2emu/*.self</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3xploit.com/flash_self_replacer/flash_self_replacer_ps2emu.html</String></Pair>
 			</Table>
 			<Table key="han_inject_self_psp">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_game.png</String></Pair>
-				<Pair key="title"><String>Inject SELF (PSP Emulator)</String></Pair>
-				<Pair key="info"><String>Copy *.self to dev_flash/pspemu/*.self</String></Pair>
+				<Pair key="title"><String>Inject SELF (PSP Emulator) / Устанавливаем SELF (PSP эмулятор)</String></Pair>
+				<Pair key="info"><String>Copy *.self to dev_flash/pspemu/*.self / Копируем *.self в dev_flash/pspemu/*.self</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3xploit.com/flash_self_replacer/flash_self_replacer_pspemu.html</String></Pair>
 			</Table>
 			<Table key="han_inject_self_bd">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_executable.png</String></Pair>
-				<Pair key="title"><String>Inject SELF (BD Player)</String></Pair>
-				<Pair key="info"><String>Copy *.self to dev_flash/bdplayer/*.self</String></Pair>
+				<Pair key="title"><String>Inject SELF (BD Player) / Устанавливаем SELF (Блюрей плеер)</String></Pair>
+				<Pair key="info"><String>Copy *.self to dev_flash/bdplayer/*.self / Копируем *.self в dev_flash/bdplayer/*.self</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3xploit.com/flash_self_replacer/flash_self_replacer_bdplayer.html</String></Pair>
 			</Table>
@@ -647,15 +647,15 @@
 		<Attributes> 
 			<Table key="han_inject_cert">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_cert.png</String></Pair>
-				<Pair key="title"><String>Inject Cert (SSL Cert)</String></Pair>
-				<Pair key="info"><String>Copy certs to dev_flash/data/cert/*.cer</String></Pair>
+				<Pair key="title"><String>Inject Cert (SSL Cert) / Устанавливаем SSL сертификаты</String></Pair>
+				<Pair key="info"><String>Copy certs to dev_flash/data/cert/*.cer / Копируем certs в dev_flash/data/cert/*.cer </String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/ssl_cert_injector_remover/ssl_cert_injector.html</String></Pair>
 			</Table>
 			<Table key="han_remove_cert">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_cert.png</String></Pair>
-				<Pair key="title"><String>Remove Cert (SSL Cert)</String></Pair>
-				<Pair key="info"><String>Delete certs from dev_flash/data/cert/*.cer</String></Pair>
+				<Pair key="title"><String>Remove Cert (SSL Cert) / Удаляем SSL сертификаты</String></Pair>
+				<Pair key="info"><String>Delete certs from dev_flash/data/cert/*.cer / Удаляем certs из dev_flash/data/cert/*.cer</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com/ssl_cert_injector_remover/ssl_cert_remover.html</String></Pair>
 			</Table>
@@ -680,13 +680,13 @@
 		<Attributes> 
 			<Table key="han_download_dex_files">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/download.png</String></Pair>
-				<Pair key="title"><String>Step 1: Download DEX Files (Debug)</String></Pair>
-				<Pair key="info"><String>Download DEX 4.82 files to HANTOOLBX/USRDIR/files/ ready for installation</String></Pair>
+				<Pair key="title"><String>Step 1: Download DEX Files (Debug) / Шаг 1: Скачиваем DEX файлы (Debug)</String></Pair>
+				<Pair key="info"><String>Download DEX 4.82 files to HANTOOLBX/USRDIR/files/ ready for installation / Скачиваем DEX 4.82 файлы в HANTOOLBX/USRDIR/files/ для установки </String></Pair>
 			</Table>
 			<Table key="han_download_cex_files">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/download.png</String></Pair>
-				<Pair key="title"><String>Step 1: Download CEX Files (Retail)</String></Pair>
-				<Pair key="info"><String>Download CEX 4.82 files to HANTOOLBX/USRDIR/files/ ready for installation</String></Pair>
+				<Pair key="title"><String>Step 1: Download CEX Files (Retail) / Шаг 1: Скачиваем СEX файлы (Retail)</String></Pair>
+				<Pair key="info"><String>Download CEX 4.82 files to HANTOOLBX/USRDIR/files/ ready for installation / Скачиваем СEX 4.82 файлы в HANTOOLBX/USRDIR/files/ для установки </String></Pair>
 			</Table>
 			<Table key="han_debug_settings_installer">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/inj_debug.png</String></Pair>
@@ -810,6 +810,11 @@
 				<Pair key="title"><String>Juegos de PSN US</String></Pair>
 				<Pair key="info"><String>Descarga Juegos de PSN US Completos (Requiere licencias rap/rif)</String></Pair>
 			</Table>
+			<Table key="Disk_PSPx_RU">
+				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/Iron_Folder.png</String></Pair>
+				<Pair key="title"><String>Disc dump from PSPx.RU / Дисковые образы с сайта PSPx.RU</String></Pair>
+				<Pair key="info"><String>Disc dump from PSPx.RU / Дисковые образы с сайта PSPx.RU</String></Pair>
+			</Table>
 			<Table key="Contenido_DLC_US">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/dlc_images/dlcUS.png</String></Pair>
 				<Pair key="title"><String>DLC US</String></Pair>
@@ -877,6 +882,12 @@
                 key="psnstuff_PSN_US"
                 attr="psnstuff_PSN_US"
                 src="xmb://localhost/dev_hdd0/game/HANTOOLBX/USRDIR/XMLS/psnstuff_PSN_US.xml#psnstuff_PSN_US_items"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+                key="Disk_PSPx_RU"
+                attr="Disk_PSPx_RU"
+                src="xmb://localhost/dev_hdd0/game/HANTOOLBX/USRDIR/XMLS/PSPxRU.xml#Disk_PSPx_RU_items"
 				/>
 			<Query
 				class="type:x-xmb/folder-pixmap"
@@ -954,19 +965,19 @@
 		<Attributes> 
 			<Table key="han_toolbox_update">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/update.png</String></Pair>
-				<Pair key="title"><String>Update Toolbox</String></Pair>
-				<Pair key="info"><String>Download and install the latest Toolbox package (Reboot after)</String></Pair>
+				<Pair key="title"><String>Update Toolbox / Обновить Toolbox</String></Pair>
+				<Pair key="info"><String>Download and install the latest Toolbox package (Reboot after) / Скачать и установить последний Toolbox (нужен перезапуск)</String></Pair>
 			</Table>
 			<Table key="han_toolbox_resources">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/update.png</String></Pair>
-				<Pair key="title"><String>Download Toolbox Resources</String></Pair>
-				<Pair key="info"><String>Download and install the HAN Toolbox resource package (Reboot after)</String></Pair>
+				<Pair key="title"><String>Download Toolbox Resources / Скачать ресурсы для Toolbox</String></Pair>
+				<Pair key="info"><String>Download and install the HAN Toolbox resource package (Reboot after) / Скачать и установить ресурсы для Toolbox (нужен перезапуск)</String></Pair>
 			</Table>
 			<Table key="han_toolbox_about">
 				<Pair key="icon"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/list.png</String></Pair>
 				<Pair key="title"><String>Version: 0.5 MOD</String></Pair>
 				<Pair key="info"><String>DeViL303, Pink1, esc0rtd3w, Berion, ShaolinAssassin 
-				Equipo PS3Xploit, Mod Editado por CYB3R</String></Pair>
+				Equipo PS3Xploit, Mod Editado por CYB3R, Mod RUS by IN1975</String></Pair>
 			</Table>
 		</Attributes>
 			<Items>
@@ -996,8 +1007,8 @@
 		<Attributes>
 			<Table key="han_toolbox_update_item">
 				<Pair key="info"><String>net_package_install</String></Pair>
-				<Pair key="pkg_src"><String>http://dl.dropboxusercontent.com/s/5w8yvfmor1lhgp4/Latest_HAN_Toolbox_CEX.pkg</String></Pair>
-				<Pair key="pkg_src_qa"><String>http://dl.dropboxusercontent.com/s/5w8yvfmor1lhgp4/Latest_HAN_Toolbox_CEX.pkg</String></Pair>
+				<Pair key="pkg_src"><String>https://github.com/nikolaevich23/han-toolbox-mod/blob/master/working/Latest_HAN_Toolbox.pkg</String></Pair>
+				<Pair key="pkg_src_qa"><String>https://github.com/nikolaevich23/han-toolbox-mod/blob/master/working/Latest_HAN_Toolbox.pkg</String></Pair>
 				<Pair key="content_name"><String>pkg_install_pc</String></Pair>
 				<Pair key="content_id"><String>UP0100-HANTOOLBX_00-PINK1000DEVIL303</String></Pair>
 				<Pair key="prod_pict_path"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/update.png</String></Pair>
@@ -1014,8 +1025,8 @@
 		<Attributes>
 			<Table key="han_toolbox_resources_item">
 				<Pair key="info"><String>net_package_install</String></Pair>
-				<Pair key="pkg_src"><String>http://dl.dropboxusercontent.com/s/p29cxn3c984ik48/HAN_Toolbox_Resources.pkg</String></Pair>
-				<Pair key="pkg_src_qa"><String>http://dl.dropboxusercontent.com/s/p29cxn3c984ik48/HAN_Toolbox_Resources.pkg</String></Pair>
+				<Pair key="pkg_src"><String>https://github.com/nikolaevich23/han-toolbox-mod/blob/master/working/HAN_Toolbox_Resources.pkg</String></Pair>
+				<Pair key="pkg_src_qa"><String>https://github.com/nikolaevich23/han-toolbox-mod/blob/master/working/HAN_Toolbox_Resources.pkg</String></Pair>
 				<Pair key="content_name"><String>pkg_install_pc</String></Pair>
 				<Pair key="content_id"><String>UP0100-HANTOOLBX_00-PINK1000DEVIL303</String></Pair>
 				<Pair key="prod_pict_path"><String>/dev_hdd0/game/HANTOOLBX/USRDIR/IMAGES/update.png</String></Pair>
